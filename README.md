@@ -23,4 +23,25 @@ Ensure you have Python installed (preferably Python 3.10+).
    git clone [https://github.com/MAD-MAX95/Multi-Agent-RAG-assistant.git](https://github.com/MAD-MAX95/Multi-Agent-RAG-assistant.git)
    cd Multi-Agent-RAG-assistant
 
+2. Create and activate a virtual environment (optional but highly recommended):
+python -m venv venv
+# On macOS/Linux
+source venv/bin/activate  
+# On Windows
+venv\Scripts\activate
+
+3. Install the required dependencies:
+
+pip install -r requirements.txt
+Set up your environment variables:
+Create a .env file in the root directory and add your required API keys (e.g., OpenAI, Anthropic, or vector database keys) depending on your setup.
+
+🛠️ Usage
+To start the assistant, run the main application:
+
+Bash
+python app.py
+
+
+
   
